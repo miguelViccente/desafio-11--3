@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 300px;
+    position: relative;
+    background-color: black;
+}
+
+.float-box {
+    float: left;
+    width: 150px;
+    height: 150px;
+    background-color: green;
+    color: white;
+    line-height: 150px;
+    text-align: center;
+}
+
+.zindex-box1, .zindex-box2 {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    color: white;
+    line-height: 150px;
+    text-align: center;
+}
+
+.zindex-box1 {
+    background-color: greenyellow;
+    z-index: 1;
+    top: 50px;
+    left: 50px;
+}
+
+.zindex-box2 {
+    background-color: yellow;
+    z-index: 2;
+    top: 100px;
+    left: 100px;
+}
